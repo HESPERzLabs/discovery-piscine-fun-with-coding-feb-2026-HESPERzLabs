@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;      
+    margin: 0;
+    background-color: #033f24;
+}
+
+.calculator-container {
+    background-color: #20150c;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 100%;           
+    box-sizing: border-box; 
+}
+
+#submitBtn {
+    cursor: pointer;
+    background-color: #067d00;
+    color: white;
+    border: none;
+    transition: background 0.3s;
+    width: 100%;            
+    margin-top: 15px;      
+}
+
+#submitBtn:hover {
+    background-color: #06290b;
+}
+
+input:focus, select:focus {
+    outline: none;              
+    border-color: #08c130;      
+}
